@@ -4,7 +4,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import "./globals.css";
 
-const HERO_SLIDE_INTERVAL_MS = 5500;
+const HERO_SLIDE_INTERVAL_MS = 1000;
 
 type HeroAccent = "cyan" | "purple" | "green" | "amber";
 
